@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#0A84FF"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.eduai.student",
@@ -31,7 +33,9 @@
         "USE_FINGERPRINT",
         "USE_BIOMETRIC",
         "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
       ]
     },
     "web": {
@@ -44,11 +48,20 @@
       "expo-local-authentication",
       [
         "expo-document-picker",
-        { "iCloudContainerEnvironment": "Production" }
-      ]
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4b5ea7b7-9151-4a46-8ba5-e538f25ac204"
+      }
     }
   }
 }
