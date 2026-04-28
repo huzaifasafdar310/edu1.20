@@ -57,11 +57,9 @@
     "experiments": {
       "typedRoutes": true
     },
+    "owner": "huzaifa310",
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "55c41292-efdb-43bf-9448-608a1694352a"
-      }
+      "router": {}
     }
   }
 }
