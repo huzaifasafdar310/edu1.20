@@ -10,8 +10,7 @@
     "preview": {
       "android": {
         "buildType": "apk"
-      },
-      "npm-install-flags": "--legacy-peer-deps"
+      }
     },
     "production": {}
   },
