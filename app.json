@@ -59,7 +59,10 @@
     },
     "owner": "huzaifa310",
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "d111d2fc-f967-4e45-80a1-9233960d34b6"
+      }
     }
   }
 }
